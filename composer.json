@@ -1,0 +1,16 @@
+{
+    "name": "ntzm/short-function",
+    "autoload": {
+        "files": [
+            "src/ShortFunction/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShortFunctionTest\\": "tests/ShortFunctionTest/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
